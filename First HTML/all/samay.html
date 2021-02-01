@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">	
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" charset="utf-8"/>		
+		<title>Samay's HTML</title>
+		<base target="_blank">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			p, blockquote, details, div{
+				font-size:1rem;
+				text-align:justify;	
+				padding:4px;
+			}
+			:root{
+				--fntvrnt: small-caps;
+				--bgh3rgb: rgb(255, 0, 0);
+				--borh3der: 4px groove;
+				--radboerius: 10px;
+			}
+			h3{
+				font-variant: var(--fntvrnt);
+				background-color: var(--bgh3rgb);
+				border: var(--borh3der);
+				border-radius: var(--radboerius);
+			}
+			header{
+				font-size:.995rem;
+				border:4px solid silver;
+				line-height:1.3;
+				background-image: url('../all/Color.jpg');
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-color: black;
+			}
+			h4{
+				background-color:maroon;
+				border:3px outset;
+			}
+			body{
+				font:1em/1.5 "comic sans ms", "times new roman", arial;;
+				margin:7px;
+				display:block;
+				box-sizing:border-box;
+				max-width:500px;
+				min-width:450px;
+				/*background-image: url('../all/chess.png');*/
+				background-color:lightgray;
+				font-size:100%;
+				overflow:auto;
+			}
+			@media only screen and (max-width: 640px) and (min-width: 430px), (min-width: 992px){
+				body{
+					background-image: url('../all/world.jpg');
+					background-attachment: fixed;
+					background-color:lightgray;
+					background-repeat:no-repeat;
+					background-size:cover;
+				}
+			}
+			@media only screen and (orientation: landscape) {
+				body{ 
+					background-color:black;
+				}
+			}	
+		</style>
+		<link href="style.css" type="text/css" rel="stylesheet">	
+	</head>	
+	<body style="color:white;">
+			<div class="fixed">
+				<span style="color:lightgray;">Physics</span>
+			</div>
+			<div>
+				<button class="button boxshadow" type="button" onclick="alert('Whead!')">Guess!</button>
+			</div>
+			<div>
+				<button class="buttony boxshadow" type="button" onclick="alert('Krak!')">Guess!</button>
+			</div>
+			<div>
+				<button class="buttons boxshadow" type="button" onclick="alert('Mehth!')">Guess!</button>
+			</div>
+
+			<div style="float:left; left:8px;">
+				<img class="clip" src="sticky.jpg" alt="Stick 2 Scroll" width="500" height="500">
+			</div>
+			<div style="float:right;">
+				<img style="left:355px;" class="clip" src="sticky.jpg" alt="Stick 2 Scroll" width="500" height="500">
+			</div>
+
+			<header class="pinvy" style="margin-bottom:20px;">		
+				<h2 style="color:papayawhip; text-align:center;">Welcome to Samay's Physics <span style="text-transform:uppercase;">html</span> Document &copy;</h2>
+			</header>
+
+		<hr style="border:4px solid red; position:sticky; top:0;">
+		<section class="rellow">
+		<h3 id="one"; style="color:maroon;">"New" Terms to Remember</h3>
+			<div id="broadline" style="border-width:4px; border-style:solid; border-color:blue yellow green red; background-color:black;" class="para">
+				<table id="slate">
+					<tr>
+						<td><mark style="background-color:red;">Force</mark></td>
+						<td><span style="color:magenta;">is a push or pull.</span></td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:orange;">Motion</mark></td>
+						<td><span style="color:darkviolet;">is the action of an object changing <em>location.</em></span></td>
+					</tr>
+					<tr>
+						<td><mark>Vectors</mark></td>
+						<td><span style="color:blue;">are quantities of direction and magnitude.</span></td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:rgb(0, 255, 0);">Velocity</mark></td>
+						<td><span style="color:cyan;">is a vector of speed and direction.</span></td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:rgba(0, 255, 0, .5);">Acceleration</mark></td>
+						<td><span style="color:green;">is the absolute change of velocity.</span></td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:cyan;">Momentum</mark></td>
+						<td><span style="color:lime;">is the quantity of mass and velocity.</span></td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:blue;">Mass</mark></td>
+						<td>is the amount of matter an object contains.</td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:darkviolet;">Gravity</mark></td>
+						<td><span style="color:orange;">is the force attracting a physical body with mass.</span></td>
+					</tr>
+					<tr>
+						<td><mark style="background-color:magenta;">Friction</mark></td>
+						<td><span style="color:red;">is the force resisting motion due to rubbing.</span></td>	
+					</tr>
+				</table>
+			</div>
+			<blockquote style="height:150px; overflow:auto; background-color:deepskyblue; color:aqua; border:4px outset;">
+						  Our world is full of forces. Forces allow us to walk, eat, blink, sleep, and <bdo dir="rtl">much more</bdo>.
+						  Motion is related to force, in which that any slight change of position due to force causes it. 
+						  Gravity is a force which allows a mass to attract itself closer. Earth, as you know, contains gravity, which is the reason why when we jump, we move back down.
+						  A mass is anything that contains matter, or space, which even includes air! 
+						  In physics, a vector is considered a quantity of direction and magnitude, or amount, which should be able to be shown by an arrow. 
+						  Velocity is an example of a vector, which contains of speed and direction, which is representable by an arrow.
+						  The constant change of velocity, or speed and direction, is called acceleration (or decceleration). Compared to running, you can stop anytime while walking. 
+						  Momentum states that an object's mass and velocity will determine the required amount of force to stop it.
+						  Friction is the force which slows masses down by contact, and as a result, heat is created.
+			</blockquote>
+		</section>
+		<hr style="margin:20px 0; border:4px solid orange; position:sticky; top:0;">
+		<section class="oroonge">
+		<h3 style="border:4px double #ff8080;" id="two"><span class="blop" style="color:orange;">Issac Newton's</span> <b style="color:magenta;">Three Laws of Motion:</b></h3>
+			<h4 style="color:lime; text-align:center">First Law: <u>The Law of Inertia.</u></h4>
+				<blockquote class="shade blkqte para quill" style="border:4px solid magenta; background: radial-gradient(red, magenta, indigo);">
+					Inertia states that an object at rest tends to stay at rest, 
+					and an object in motion <sup style="color:lime;">continues</sup> to stay in motion unless
+					an <dfn title="Force interrupting the original state of motion." style="color:lime;">outside force</dfn> interferes its original state of motion.
+				</blockquote>		
+			<h4 style="text-align:center; color:red;">Second Law: <u>Force=Mass*Acceleration.</u></h4>
+				<blockquote class="shade blkqte para quill" style="border:4px solid magenta; background: radial-gradient(blue, royalblue, aqua);">
+					This law displays the relationship between <sub style="color:red;">force, mass, and acceleration.</sub>
+					Massive objects require more force to stop it, and high acceleration means that a greater force is needed to stop the object.
+				</blockquote>
+			<h4 style="color:darkviolet; text-align:center">Third Law: <u>Actions and Reactions</u></h4>
+				<blockquote class="shade blkqte para quill" style="border:4px solid magenta; background: radial-gradient(circle, lime, mediumseagreen, green);">
+					What this law means is that for every action, such as kicking a ball, 
+					or punching the air, an <strong style="color:darkviolet; text-shadow:2px 2px 5px lavender, 0 0 10px lightblue;">equal and opposite</strong> reaction takes place. 
+					<abbr title="Example">Ex</abbr>: The harder you kick the ball, the farther it'll soar.
+				</blockquote>
+		</section>
+		<hr style="margin:20px 0; border:4px solid yellow; position:sticky; top:0;">
+		
+
+
+		<section class="blime">
+		<h3 class="h3" id="three"; style="color:indigo;">Important Physics Terms</h3> 	
+			<a class="soup" target="_self" style="padding:10px 10px; border-radius: 4px;" href="#six">Visit OurGlossary&trade; on important physics terms in links.</a>
+			<ul class="columnize itaisc" style="padding-top:4px; padding-bottom:4px; border:4px solid navy; background:linear-gradient( to right bottom, red, orange, yellow, green, blue, indigo, violet); color:mediumorchid;">
+				<li><mark style="background-color:green; color:lime;">Force</mark></li>
+				<li>Motion</li>
+				<li><mark style="background-color:green; color:lime;">Position</mark></li>
+				<li>Frame of Reference</li>
+				<li><mark style="background-color:green; color:lime;">Distance</mark></li>
+				<li>Speed</li>
+				<li><mark style="background-color:green; color:lime;">Time</mark></li>
+				<li>Vector</li>
+					<ul style="padding-left:48px">
+						<li><mark style="background-color:green; color:lime;">Velocity</mark></li>
+						<li>Acceleration</li>
+					</ul>
+				<li><mark style="background-color:green; color:lime;">Momentum</mark></li>
+				<li>Mass</li>
+				<li><mark style="background-color:green; color:lime;">Weight</mark></li>
+				<li>Gravity</li>
+				<li><mark style="background-color:green; color:lime;">Friction</mark></li>
+				<li>Inertia</li>
+				<li><mark style="background-color:green; color:lime;">Direction</mark></li>
+			</ul>	
+		</section>
+		<hr style="margin:20px 0; border:4px solid lime; position:sticky; top:0;">	
+		
+
+
+		<section class="greevender">
+		<h3 class="h3" id="four"; style="color:green;"><span id="parap">v</span></h3>
+			<figure class="magentle">
+				<img id="myImg" class="filter img" style="display:block; margin:auto; border:4px solid red;" src="WhoDiesPuzzle.png" height="200px" width="375px" alt="Who Dies?"/><br>
+				<div id="myModal" class="modal">
+					<span class="close">X</span>
+					<a href="https://www.youtube.com/watch?v=LKLzv8INA3E">
+						<img class="modal-content" id="img01">
+					</a>
+					<div id="caption"></div>
+				</div>
+				<figcaption style="margin:auto; width:375px; text-align:center; color:#dd0000; background-color:lightblue; font-weight:bold; border:1px solid red; margin-bottom:40px;">Brain Teaser!</figcaption>
+			</figure>
+			<p style="border-top: solid 4px black; border-left: solid 4px black; border-right: solid 4px black; background-color:cyan; color:midnightblue;">
+				Figures <b style="color:blue;">B, C, and D</b> will die after figure E exerts force on the ball.
+			</p>
+			<details class="downing" style="border-left: solid 4px black; border-right: solid 4px black; background-color:#ff8f66; color:gold;">
+				<summary style="cursor:pointer"><b style="color:crimson;">BONUS!:</b></summary> 
+				Figure E represents ebola, and after figures B, C, and D die, Figure A and E will die too, because Figure E will spread its ebola to figure A, and the effects of ebola will <s>kill</s> them. In other words, everyone dies!	
+			</details><br>
+			<details style="color:tan; background-color:brown; border:4px solid chocolate;">
+				<summary style="cursor:pointer; font-weight:bold; color:khaki;">Extra!:</summary>
+				<span style="text-align:left;">View the sun, earth, and moon in this image.</span>
+				<figure style="text-align:center">
+					<img style="border:2px solid orange;" src="mes.gif" alt="The Earth, Sun, and Moon" width="200px" height="128px" usemap="#yolo">
+					<figcaption style="border:1px solid red; background-color:lime; color:forestgreen;">Click on each figure to view a larger image.</figcaption>
+					<map name="yolo">
+						<area onclick="alert('You will view the sun.')" shape="poly" coords="0,0,33,21,68,73,84,128,0,128,0,0" href="sun.jpg" alt="Sun">
+						<area onclick="alert('You will view the earth.')" shape="circle" coords="121.5,45.3,22.7" href="earth.png" alt="Earth">
+						<area onclick="alert('You will view the moon.')" shape="circle" coords="162.54,58.5,8.1" href="moon.jpg" alt="Moon">
+						<area onclick="alert('You will view our solar system.')" shape="default" href="space.jpg" alt="S.S.S">
+					</map>
+				</figure>
+				<span style="font-weight:bold; color:#651A1A;">POP-QUIZ!</span> (Hover mouse over questions for answers.)<br>
+				<div>
+					<ol>
+						<li onclick="document.getElementById('displayjav').style.display='block'">How many planets are in our solar system?</li>
+					</ol>
+					<p id="displayjav" style="display:none; color:white;">There are currently 8 planets in our solar system.</p>
+				</div>
+				<div>
+					<ol start="2">
+						<li onclick="document.getElementById('javdisplay').style.display='block'">Why is Pluto considered a dwarf planet?</li>
+					</ol>
+					<p id="javdisplay" style="display:none; color:white;">Because its orbit overlaps Neptune by a lot!<br>
+				</div> 
+			</details>
+		</section>
+		<hr style="margin:20px 0; border:4px solid green; position:sticky; top:0;">
+		<section class="cygenta">
+		<h3 id="five"; style="color:goldenrod;">Track Problem With D=R*T</h3>
+			<p style="border:4px double cyan; background-color:navy; color:teal;">This is a table of 4 contestant's meters covered in an amount of ample seconds, given their final speeds after the competition. In order to make the track team, the contestants need to run at least <mark style="border-bottom: solid 2px orchid; color:green; background-color:springgreen; border-radius:4px;">.82 meters per second</mark> at any given distance till a minute.</p>
+			<table style="border:4px double orangered; background-color:yellow"; border="2" width="65%" cellspacing="2" cellpadding="2">
+				<caption>
+					<b id="summa" style="color:coral;"></b>
+				</caption>
+				<thead>
+					<tr style="background-color:lavender; color:darkorange;">
+						<th>Figure</th>
+						<th>Time (Seconds)</th>
+						<th>Distance (Meters)</th>
+						<th>Speed (M.P.S)</th>
+					</tr>
+				</thead>
+				<tfoot>
+					<tr style="background-color:lime; color:green;">
+						<td>Source:Me</td>
+					</tr>
+				</tfoot>
+				<tbody style="text-align:center">
+					<tr style="color:Purple;">
+						<td>P</td>
+						<td>12s</td>
+						<td>10m</td>
+						<td style="background-color:salmon;">?</td>
+					</tr>
+					<tr style="color:Purple;">
+						<td>R</td>
+						<td>17s</td>
+						<td>15m</td>
+						<td style="background-color:salmon;">?</td>
+					</tr>
+					<tr style="color:Purple;">
+						<td>S</td>
+						<td>25s</td>
+						<td>20m</td>
+						<td style="background-color:salmon;">?</td>
+					</tr>
+					<tr style="color:Purple;">
+						<td>T</td>
+						<td>39s</td>
+						<td>30m</td>
+						<td style="background-color:salmon;">?</td>
+					</tr>
+				</tbody>
+			</table>
+			<p style="text-align:justify; border:4px double red; background-color:darkred; color:salmon;">With this information, we can conclude the speed of each contestant, regarding this table. Using the distance formula; d=rt, dividing time from each side will result in the equation of r=d/t.</p>
+			<p style="border:4px double olive; color:yellow; background-color:goldenrod;">
+				These are the results:<br>
+				P: 10/12 = 0.83 m/s<br>
+				R: 15/17 = 0.88 m/s<br> 
+				S: 20/25 = 0.80 m/s<br>
+				T: 30/39 = 0.76 m/s<br>
+			</p>
+			<div id="boird" style="border:10px solid transparent; border-image: url(border.png) 28 round; display:block; background-color:orangered; color:orange;">
+				Here are the rankings listed below (the track eligibility chart is below the rankings):
+						<ol title="Preceding Order" reversed>
+							<li>T <meter style="border:1px solid maroon;" value="0" min="0" max="3">1 out of 3</meter></li>
+							<li>S <meter style="border:1px solid maroon;" value="1" min="0" max="3">1 out of 3</meter></li>
+							<li>P <meter style="border:1px solid maroon;" value="2" min="0" max="3">1 out of 3</meter></li>
+							<li>R <meter style="border:1px solid maroon;" value="3" min="0" max="3">1 out of 3</meter></li>
+						</ol>
+			</div>
+			<table style="border:4px double purple; background-color:lightblue;"border="2">
+				<caption>
+					<b style="color:aqua;">Track Eligibility Chart</b>
+				</caption>
+				<colgroup>
+					<col span="1" style="background-color:dodgerblue;">
+					<col span="1" style="background-color:pink;">
+					<col span="1" style="background-color:salmon;">
+				</colgroup>	
+				<thead>
+					<tr style="background-color:lightblue; color:#9400D3;">
+						<th>Figure</th>
+						<th>Speed (MPS)</th>
+						<th>Eligibility</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr style="color:black; text-align:center;">
+						<td>P</td>
+						<td style="text-transform:lowercase;">0.83 M/S</td>
+						<td style="color:lime;"><b>Passed</b></td>
+					</tr>
+					<tr  style="color:black; text-align:center">
+						<td>R</td>
+						<td>0.88 m/s</td>
+						<td style="color:lime;"><b>Passed</b></td>
+					</tr>	
+					<tr  style="color:black; text-align:center;">
+						<td>S</td>
+						<td>0.80 m/s</td>
+						<td style="color:red;"><b>Failed</b></td>
+					</tr>
+					<tr  style="color:black; text-align:center">
+						<td>T</td>
+						<td>0.76 m/s</td>
+						<td style="color:red;"><b>Failed</b></td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+		<hr style="margin:20px 0; border:4px solid cyan; position:sticky; top:0;">
+		<section class="pinvy">
+		<h3 class="toolpit udecorl h3" style="color:blue;" id="six">Links<span class="tooltext">Support</span></h3>
+			<p style="background-color:black; border:4px solid dimgray;">Here are a few links you can click on to become familiar with forces and motion:</p>
+			<nav class="skull">	
+				<div class="elliptical" style="border:4px groove blue;">
+					<a class="soup" href="http://www.physics4kids.com/files/motion_force.html"> Physics4Kids.com</a><br>
+					<a class="soup" href="https://phet.colorado.edu/en/simulation/forces-and-motion"> PhetPhysics</a><br>
+					<a class="soup" href="https://en.wikipedia.org/wiki/Force"> WikiForce</a><br>
+					<a class="soup" href="glossary.html" target="_self">OurGlossary&trade;</a><br>
+				</div>
+			</nav>	
+				<p style="background-color:black; border:4px solid dimgray;">Here are some <span style="background-color:white; text-shadow:1px 1px 2px black, 0 0 1em blue, 0 0 0.2em darkblue; border-radius:4px;">in-page links</span> for specific sections of this page:</p>
+			<nav style:selection="color:black;" class="skull count">
+				<div class="elliptical" style="text-align:justify; padding:4px; border:4px ridge blue;">
+					<a class="sector soup" href="#one" target="_self"> "New" Terms to Remember</a><br>
+						<span class="indent">Brief Terms</span><br>
+						<span class="indent">Terms in Depth</span><br>
+					<a class="sector soup" href="#two" target="_self"><i>Issac Newton's</i> Three Laws of Motion:</a><br>
+						<span class="indent">First LoM</span><br>
+						<span class="indent">Second LoM</span><br>
+						<span class="indent">Third LoM</span><br>
+					<a class="sector soup" href="#three" target="_self"> Important Physics Terms</a><br>
+						<span class="indent">Useful Terms</span><br>
+					<a class="sector soup" href="#four" target="_self"> Challenging Puzzle</a><br>
+						<span class="indent">Who Dies?</span><br>
+						<span class="indent">Cosmic Extra</span><br>
+					<a class="sector soup" href="#five" target="_self"> Track Problem With D=R*T</a><br>
+						<span class="indent">D,R,T Tutorial</span><br>
+						<span class="indent">D,R,T Explained</span> 
+				</div>
+			</nav>
+				<p style="background-color:black; border:4px solid dimgray;">Goals in construction:</p>
+			<nav class="skull">	
+				<div class="elliptical" style="border:4px ridge blue;">
+					<ul class="nav">
+						<li class="boreder content"><a class="yes" href="#physics1" target="_self">Physics</a></li>
+						<li class="boreder content"><a class="no" href="mailto:asdewq@gmail.com" target="_self">Space</a></li>
+						<li class="boreder content"><a class="no" href="#weather" target="_self">Weather</a></li>
+						<li class="dropdown no content">
+							<a class="no" href="#the_human_body" target="_self">The Human Body</a>
+							<div class="dropcon">
+								<a href="#">The Circulatory System</a>
+								<a href="#">The Respiratory System</a>
+								<a href="#">The Digestive System</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</nav>
+		</section>
+		<hr style="margin:20px 0; border:4px solid blue; position:sticky; top:0;">
+		<section class="tample">
+		<h3 class="h3" style="color:darkgray;">Sign Up!</h3>
+		<p style="background-color:white; border:4px solid #bfbfbf; color:white; text-shadow: 2px 2px 4px black;">Are you interested in science or need help so that you can pass this class? If you sign up, you'll be able to recieve notifications for every new lesson and be able to choose what you need to focus on, so you can get quizzed.</p>
+		<form action="form.html" id="3" oninput="x.value=parseInt(a.value)+parseInt(b.value)" method="post">
+			<fieldset style="border:4px solid darkviolet; border-width:4px 5px; border-style:solid dashed; border-color:darkviolet blue; background-color:black;">
+				<legend style="color:springgreen;"><h3>Required</h3></legend>
+				<table>
+					<tr>
+						<td><label for="name" class="margin page"><b><i style="color:#67ecf8" class="fa fa-user" aria-hidden="true"></i> Username:</b></label></td>
+						<td><input class="sprin spring" required placeholder="Max:15 Characters" maxlength="15" style="font-family:comic sans ms;" type="text" id="name" name="user_name"/><br><br></td>
+					</tr>
+					<tr>
+						<td><label for="email" class="page"><b><i style="color:#64a859" class="fa fa-envelope" aria-hidden="true"></i> Email:</b></label></td>
+						<td><input class="sprin spring" required placeholder="Max:100 Characters" maxlength="100" style="font-family:comic sans ms;" type="email" id="email" name="user_email"/><br><br></td>
+					</tr>
+					<tr>
+						<td><label for="password" class="page"><b><i style="color:#926578;" class="fa fa-question-circle" aria-hidden="true"></i> Password:</b></label></td>
+						<td><input class="sprin spring" required placeholder="Max:16 Characters" maxlength="16" style="font-family:comic sans ms;" type="password" id="password" name="user_password"/><br><br></td>
+					</tr>
+				</table>
+			</fieldset>
+			<fieldset style="border:4px solid green; border-width:4px 5px; border-style:solid dashed; border-color: green orangered; background-color:yellow; color:black;">
+				<legend style="color:teal;"><h3>Optional</h3></legend>
+				<label for="bio">Write a paragraph or two explaining why science is very important to our lives. Winner recieves a $50 gift card on any brand they prefer.</p></label>
+				<div style="margin:auto;">
+					<textarea onclick="myTextAreaTrick" placeholder="Type Here:" readonly rows="3" cols="40" style="font-family:comic sans ms; color:deeppink; background-color:mediumturquoise;" id="bio, textareatrick" name="user_bio"></textarea><br><br>
+				</div>
+				<label for="ms-science-topic"><abbr title="Middle School">MS</abbr> Science Topic</label>
+				<select style="cursor:pointer; font-family:comic sans ms; color:navy; background-color:mediumorchid;" id="science-topic" name="user_job-title">
+					<optgroup style="font-family:comic sans ms;" label="Invalid">
+						<option value="none" selected>None</option>
+					<optgroup style="font-family:comic sans ms;" label="Earth">
+						<option value="earth's-composition">Earth's Composition</option>
+						<option value="our-solar-system">Our Solar System</option>
+						<option value="weather-and-climate">Weather and Climate</option>
+					</optgroup>
+					<optgroup style="font-family:comic sans ms;" label="Plants and Animals">
+						<option value="the-plant-structure">The Plant Structure</option>
+						<option value="cells-and-genetics">Cells and Genetics</option>
+						<option value="the-human-body">The Human Body</option>
+					</optgroup>
+					<optgroup style="font-family:comic sans ms;" label="Physical Science">
+						<option value="physics">Physics</option>
+						<option value="waves-and-energy">Waves and Energy</option>
+						<option value="chemistry">Chemistry</option>
+					</optgroup>
+				</select><br><br>
+				Browser:
+				<input form="3" style="color:orange; background-color:brown;" name="browsers" list="browsers">
+				<datalist id="browsers">
+					<option value="Chrome">Google Chrome</option>
+					<option value="Firefox">Mozilla Firefox</option>
+					<option value="Internet Explorer">Internet Explorer</option>
+					<option value="Opera">Opera</option>
+					<option value="Safari">Safari</option>
+				</datalist><br><br>	
+
+				<input style="cursor:wait" type="radio" id="young" value="young" name="user_age"/>
+				<label id="who" for="young"></label>
+				<input style="cursor:wait" type="radio" id="old" value="old" name="user_age"/>
+				<label for="old">I am grade <span id="funct"></span></label>
+				<input style="cursor:wait" type="radio" id="older" value="older" name="user_age"/>	
+				<label for="older">I am grade <span id="vvvvv">8</span></label><br><br>
+				
+				<label>Interested to learn about</label><br>
+				<input style="cursor:pointer" type="checkbox" id="earth" value="interest_earth" name="user_choice">
+				<label for="earth">Earth</label><br>
+				<input style="cursor:pointer" type="checkbox" id="organisms" value="interest_organisms" name="user_choice">
+				<label for="plants-and-animals">Plants and Organisms</label><br>
+				<input style="cursor:pointer" type="checkbox" id="physics" value="interest_physics" name="user_choice">
+				<label for="physical_science">Physical Science</label><br><br>
+				THE <small>MINI</small> CALCULATOR:<br>
+				-100
+				<input style="cursor:progress; background-color:tomato; border:1px solid orange;" type="range" min="-100" max="100" id="a" name="a" value="0">
+				100 +
+				<input style="cursor:crosshair; font-family:comic sans ms; color:royalblue; background-color:cyan;" min="-1000" max="1000" maxlength="4" type="number" id="b" name="b" value="0"><br>
+				<div style="text-align:center;">=
+					<output name="x" for="a b"></output><br><br>
+				</div>
+				<input style="display:inline; cursor:pointer; color:brown;" type="file" name="img"><i style="color:brown;" class="material-icons">attachment</i><br><br>
+			</fieldset><br> 
+			<button class="togo boxshadow" style="font-family:comic sans ms; color:darkgreen; background-color:lime;" type="submit" id="submit" onclick="alert('You will turn this form in.')">Finish</button>
+			<button class="togo boxshadow" style="font-family:comic sans ms; color:darkred; background-color:red;" type="reset" id="reset" onclick="alert('Your form will be cleared.')">Reset</button>
+			<button class="boxshadow" style="font-family:comic sans ms; color:blue; background-color:royalblue;" type="button" onclick='document.getElementById("trial").innerHTML = "Ye" '>Click me!</button>
+			<div id="trial" style="display:inline-block; background-color:yellow; color:green; padding:1px; border:2px solid black; border-radius:4px; font-size:14px;">Is Physics Important and Fun?</div>
+			<input type="image" src="submit.png" alt="Button">
+		</form>
+		</section>	
+		<hr style="margin:20px 0px; border:4px solid darkviolet; position:sticky; top:0;">
+		<section class="whack">
+		<div class="eg earthling">
+			<a href="earthling.gif">
+				<img class="image" style="border:4px solid forestgreen;" src="earthling.gif" width="180px" height="180px"/>
+			</a>
+			<span class="allow" style="color:powderblue;">Earth + Clouds</span>
+		</div>
+		<div align="right" class="eg banana container">
+			<a href="banana.gif">
+				<img class="banimage" style="border-width:4px; border-style:solid; border-color:red blue lime yellow;" src="banana.gif" width="180px" height="180px">
+			</a>
+			<div class="overlay">
+				<div class="text">Yeet!</div>
+			</div>
+			<span class="let" style="color:black">Rainbow + Banana</span>
+		</div>
+		<div style="text-align:center;">
+			<span style="margin:auto; display:inline; text-transform:uppercase;"><mark style="border:1px solid lime; color:lightblue; background-color:deeppink;">wow!<br> cool!<br> gr8!<br> yay!<br> haha!<br> sup!<br> oh!!</mark></span>
+		</div>
+		<div style="text-align:center" class="yay">
+			<span id="great" style="cursor:pointer; clear:both; padding:5px; border:2px solid royalblue; background-color:deeppink; color:aqua;" onclick="avajuse();">Click for swag!!!</span>
+		</div>
+		</section>
+		<hr style="margin:20px 0; border:4px solid magenta; position:sticky; top:0;">
+		<footer class="whack">
+			<div>
+				<p style="border:4px solid dimgrey; background-color:black;"><span style="color:maroon;">Here</span><span style="color:red"> are</span><span style="color:yellow;"> some</span><span style="color:orange;"> music</span><span style="color:lime"> pieces</span><span style="color:green"> for</span><span style="color:cyan"> you</span><span style="color:blue"> to</span><span style="color:darkviolet"> listen</span><span style="color:magenta"> to.</p>
+			</div><br>
+			<div style="text-align:center">
+				<iframe src="https://www.youtube.com/embed/cPJUBQd-PNM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+				<blockquote style="color:orange; background-color:red;"><code>A Minecraft Parody &uarr; at <time datetime="2017-07-18 0:01">0:01</time>.</code></blockquote>
+				<audio controls>
+					<source src="kramp.mp3" type="audio/mpeg">
+				</audio>
+				<blockquote style="color:navy; background-color:orchid;"><samp>Some random music piece from windows.</samp></blockquote>
+				<blockquote style="color:mediumturquoise; background-color:seagreen;"><kbd>Without sound waves and our ears, we could'nt listen to these music pieces, or sound, in general.</kbd></blockquote>
+			</div>
+			<div style="color:black;" class="animate"><span class="eenimate">Hello!</span></div>
+			<div align="center">
+				<table>
+					<tr>
+						<th>
+							<svg class="svgtext" height="100" width="200">
+								<text x="0" y="15" fill="red" transform="rotate(340 230,50)">Circles and Lines</text>
+							</svg>
+						</th>
+						<th>
+							<svg class="svgtext" height="100" width="200">
+								<text x="0" y="15" fill="aqua" transform="rotate(340 230,50)">Squares and Polygons</text>
+							</svg>
+						</th>
+					<tr>
+						<td>
+							<svg class="svg" width="100" height="120">
+								<circle onclick="alert('This is a circle')" cx="50" cy="60" r="40" stroke="navy" stroke-width="4" stroke-dasharray="6,3" fill="orange">
+							</svg>
+						</td>
+						<td>
+							<svg class="svg" width="80" height="80">
+								<rect onclick="alert('This is a square')" width="80" height="80" stroke-width="10"
+								style="fill:yellow; stroke-dasharray:5,2,7,2; stroke:blue;">
+							</svg>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<svg class="svg" width="120" height="120">
+								<ellipse onclick="alert('This is an ellipse')" cx="55" cy="60" rx="47" ry="40"
+								style="fill:cyan;stroke:green;stroke-dasharray:6,1,8,4; stroke-width:4">
+							</svg>	
+						</td>	 
+						<td>
+							<svg class="svg" width="100" height="120">
+								<rect onclick="alert('This is a rounded square')" x="15" y="20" rx="20" ry="20" width="80" height="80"
+								style="fill:lime; stroke-dasharray:4,3,6,2; stroke:darkviolet; stroke-width:5; opacity:1"> 
+							</svg>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<svg class="svg" width="100" height="100">
+								<line onclick="alert('This is a line')" x1="5" y1="80" x2="80" y2="5"
+								style="stroke:magenta;stroke-linecap:round; stroke-width:5">
+							</svg>
+						</td>
+						<td>
+							<svg class="svg" width="80" height="82">
+								<polygon onclick="alert('This is a triangle')" points="40,0,0,80,80,80"
+								style="fill:pink; stroke-dasharray:3,4,9,2; stroke:red; stroke-width:4">
+							</svg>
+						</td> 
+					</tr>
+					<tr>
+						<td>
+							<svg class="svg" width="100" height="80">
+								<polyline onclick="alert('This is a polyline')" points="0,0 40,80 80,0"
+								style="fill:none; stroke:brown; stroke-width:4">
+							</svg>
+						</td>
+						<td>
+							<svg class="starpower" width="200" height="84">
+								<polygon onclick="alert('This is a star (it glitches out)')" points="40,4 16,79.2 76,31.2 4,31.2 64,79.2"
+								style="fill:white; stroke:black; stroke-width:4; fill-rule:evenodd;" />
+							</svg>
+					</tr>				
+				</table>
+			</div>	
+		</footer>
+		<script>
+			function avajuse () {
+				document.getElementById("great").innerHTML = Date();
+			}
+
+			document.getElementById("summa").innerHTML = "BONUS!!";
+			
+			var va, vn, vz, v;
+				va = "Challenging";
+				vn = " ";
+				vz = "Puzzle";
+				vt = va + vn + vz;
+			document.getElementById("parap").innerHTML = vt;
+			
+			var vb = 19, vc = 8, vd, ve, vf, vg, vh;
+				vb++;
+				vc--;
+				vd = 3;
+				ve = 6;
+				vf = -1;
+				vg = 21;
+				vi = 2;
+				vj = 72.5;
+				vh = [[[(vb + vc) / vd] ** vi - vj] * ve + vf] % vg;
+			document.getElementById("vvvvv").innerHTML = vh;
+			
+			var who = {
+				POV : "I",
+				genDer: "?",
+				type: "grade ",
+				level: 6
+			};
+			document.getElementById("who").innerHTML = who.POV + " am " + who.type + who.level;
+			function myFunct(og, oj) {
+				return og * oj;
+			}
+			document.getElementById("funct").innerHTML = myFunct(3.5, 2);
+					// Get the modal
+				var modal = document.getElementById('myModal');
+
+				// Get the image and insert it inside the modal - use its "alt" text as a caption
+				var img = document.getElementById('myImg');
+				var modalImg = document.getElementById("img01");
+				var captionText = document.getElementById("caption");
+				img.onclick = function(){
+				    modal.style.display = "block";
+				    modalImg.src = this.src;
+    				captionText.innerHTML = this.alt;
+				}
+	
+				// Get the <span> element that closes the modal
+				var span = document.getElementsByClassName("close")[0];
+		
+				// When the user clicks on <span> (x), close the modal
+				span.onclick = function() { 
+				    modal.style.display = "none";
+						}
+				function myTextAreaTrick()  {
+					document.getElementById("textareatrick").innerHTML = "You got tricked!"}
+   		</script>
+	</body>
+</html>

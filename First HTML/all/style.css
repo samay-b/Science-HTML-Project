@@ -1,0 +1,680 @@
+
+/*This is my css styling page for Samay's HTML page*/			
+			.margin{
+				margin-right:91px;
+			}
+			.page{
+				color:lightblue;
+			}
+			.para{
+				color:yellow;
+			}
+			#broadline{
+				border-top: 4px solid blue;
+			}
+			.downing{
+				border-bottom: solid 4px black;
+			}
+			.crow div li{
+				background-color:orangered;
+				color:orange;
+			}
+		/*Styling for unvisited links: orange text*/
+			a.soup:link{
+				color:orange;
+				background-color:red;
+				text-decoration:none;
+			}
+		/*Styling for visited links: yellow text*/
+			a.soup:visited{
+				color:yellow;
+				background-color:tomato;
+			}
+		/*styling for mouse hover: forestwhite*/
+			a.soup:hover{
+				background-color:forestgreen;
+				color:lime;
+				font-variant: small-caps;
+			}
+		/*Styling for link activating: magentink*/
+			a.soup:active{
+				background-color:magenta;
+				color:pink;
+			}
+			.udecorl{
+				text-decoration:underline;
+				text-decoration-color:yellow;
+			}
+			.itaisc{
+				text-decoration:overline;
+				text-decoration-color:hsl(150, 100%, 50%);
+			}
+			blockquote.blkqte{
+				outline:3px outset yellow;
+				outline-offset:2px;
+			}
+			.blop{
+				font-style:oblique;
+			}
+			table{
+				border-collapse:collapse;
+			}
+			.h3{
+				width:50%;
+			}
+			.img{
+				margin-top:40px;
+			}
+			.earthling{
+				float:left;
+				max-width:46.5%;
+				transition: all 0.4s;
+			}
+			.earthling:hover{
+				transform: scaleX(-1);
+				}
+			.banana{
+				float:right;
+				max-width:46.5%;
+			}
+			ul{
+				list-style:square inside;
+			}
+			ul ul{
+				list-style:circle;
+			}
+			ul, ol{
+				padding-left:0px;
+				list-style-position:inside;
+			}
+			li{
+				margin-bottom:1.7px;
+			}
+			.yay{
+				clear: both;
+			}
+			meter{
+				cursor:help;
+			}
+			button{
+				cursor:pointer;
+			}
+			#slate tr:nth-child(even){
+				background-color:grey;
+			}
+			#slate tr:nth-child(odd){
+				background-color:black;
+			}
+			.eg{
+				z-index: -0.9;
+				position: relative;
+				padding:0;
+			}
+			.allow{
+				position: absolute;
+				top:5px;
+				left:7px;
+			}
+			.let{
+				position: absolute;
+				top:5px;
+				right:7px;
+			} 
+			div.fixed{
+				position:fixed;
+				bottom:0;
+				right:0;
+				border:2px solid white;
+				padding:2px 0 0 4px;
+				background-color:black;
+			}
+			.button{
+				position:fixed;
+				top:0;
+				left:0;
+				color:red;
+				background-color:maroon;
+				transition:all 0.5s;
+			}
+			.button:hover{
+				background-color:red;
+				color:maroon;
+			}
+			.buttony{
+				position:fixed;
+				top:0;
+				left:227px;
+				color:lime;
+				background-color:forestgreen;
+				transition:all 0.5s;
+			}
+			.buttony:hover{
+				color:forestgreen;
+				background-color:lime;
+			}
+			.buttons{
+				position:fixed;
+				top:0;
+				left:455px;
+				color:mediumorchid;
+				background-color:indigo;
+				transition:all 0.5s;
+			}
+			.buttons:hover{
+				color:indigo;
+				background-color:mediumorchid;
+			}
+			.sprin{
+				color:gold;
+				background-color:gray;
+			}
+			input.spring:focus{
+				background-color:brown;
+				color:khaki;
+			} 
+			/*.live{
+				display:none;
+				visibility:hidden;
+				color:white;
+				transition:all 0.3s;
+			}
+			.why:hover p{
+				visibility:visible;
+				display:inline;
+			}*/
+			blockquote.quill::first-letter{
+				color:cyan;
+				font-size:x-large;
+				float:left;
+			}
+			.blime ::-moz-selection{
+				color:lime;
+				background:blue;
+			}
+			.blime ::selection{
+				color:lime;
+				background:blue;
+			}
+			.oroonge ::-moz-selection{
+				color:maroon;
+				background:orange;
+			}
+			.oroonge ::selection{
+				color:maroon;
+				background:orange;
+			}
+			.pinvy ::-moz-selection{
+				color:pink;
+				background:navy;
+			}
+			.pinvy ::selection{
+				color:pink;
+				background:navy;
+			}
+			.cygenta ::-moz-selection{
+				color:cyan;
+				background:magenta;
+			}
+			.cygenta ::selection{
+				color:cyan;
+				background:magenta;
+			}
+			.greevender ::-moz-selection{
+				color:green;
+				background:mediumorchid;
+			}
+			.greevender ::selection{
+				color:green;
+				background:mediumorchid;
+			}
+			.rellow ::-moz-selection{
+				color:red;
+				background:yellow;
+			}
+			.rellow ::selection{
+				color:red;
+				background:yellow;
+			}
+			.tample ::-moz-selection{
+				color:purple;
+				background:tan;
+			}
+			.tample ::selection{
+				color:purple;
+				background:tan;
+			}
+			.whack ::-moz-selection{
+				color:white;
+				background:black;
+			}
+			.whack ::selection{
+				color:white;
+				background:black;
+			}
+			label{
+				cursor:text;
+			}
+			.image{
+				opacity:0.7;
+				transition:all 0.4s;
+				cursor: pointer;
+			}
+			.image:hover{
+				opacity:1.0;
+			}
+			ul.nav{
+				list-style-type:none;
+				margin:0;
+				padding:0;
+				width:200px;
+				background-color:#f1f4f9;
+				line-height:1;
+				border:1px solid #555;
+			}
+			li a.no{
+				display:block;
+				color:black;
+				padding:8px 16px;
+				text-decoration:none;
+			}
+			li a.yes{
+				display:block;
+				padding:8px 16px;
+				background-color:#4CAF50;
+				color:azure;
+				text-decoration:none;
+			}
+			li a:hover:not(.yes) {
+				background-color:#d30000;
+				color:azure;
+			}
+			ul li.boreder{
+				border-bottom: 1px solid #555;
+			}
+			li.go{
+				border-bottom:none;
+			}
+			li.dropdown{
+				display:block;
+			}
+			div.dropcon{
+				display:none;
+				position:absolute;
+				background-color:#f9f2f6;
+				z-index:1;
+			}
+			.dropcon a{
+				color:black;
+				padding: 9px 12px;
+				text-decoration:none;
+				display:block;
+				text-align:left;
+			}
+			div.dropcon:hover a{
+				background-color:#29b891;
+			}
+			.dropdown:hover .dropcon{
+				display:block;
+			}
+			.toolpit{
+				position:relative;
+				display:inline;
+			}
+			.toolpit .tooltext{
+				visibility:hidden;
+				width:90px;
+				background-color:yellow;
+				color:rgb(240, 15, 40);
+				text-align:center;
+				border-radius:4px;
+				padding:0px 0;
+				position:absolute;
+				z-index:1;
+				left:53px;
+				opacity:0;
+				transition: opacity 4s;
+			}
+			.toolpit .tooltext::after{
+				content:" ";
+				position:absolute;
+				top:50%;
+				right:100%;
+				margin-top:-5px;
+				border-width:5px;
+				border-style:solid;
+				border-color:transparent yellow transparent transparent;
+			}
+			.toolpit:hover .tooltext{
+				visibility:visible;
+				opacity:1;
+			}
+			input[type=image] {
+				width:40px;
+				height:40px;
+			}
+			select{
+				border: 1px solid gray;
+				border-radius:3px;
+			}
+			button[type=submit], button[type=reset], button[type=button] {
+				border-radius:3px;
+				border:2px solid black;
+				z-index:1;
+			}
+			nav.count{
+				counter-reset: section;
+			}
+			a.sector{
+				counter-reset: subsection;
+			}
+			a.sector::before {
+				counter-increment: section;
+				content: "Section " counter(section) ": ";
+			}
+			span.indent::before {
+				counter-increment: subsection;
+				content: counter(section) "." counter(subsection) " ";
+			}
+			.indent{
+				color:brown;
+			}
+			div.elliptical{
+				border-radius:15px/45px;
+			}
+			nav.skull{
+				background-image: url(drybones.png);
+				background-color:hsl(20, 25%, 50%);
+				background-repeat: no-repeat;
+				background-size:20%;
+				background-position: right bottom;
+				animation-name: switch;
+				animation-duration: 25s;
+				animation-iteration-count:5;
+				animation-delay:2s;
+				animation-direction:alternate;
+				animation-timing-function:linear;
+			}
+			nav.skull:hover{
+				animation-play-state:paused\;
+			}
+			@keyframes switch{
+				0% {background-color:red;}
+				8.33% {background-color:hsl(30,100%,50%);}
+				16.66% {background-color:yellow;}
+				25% {background-color:hsl(90,100%,50%);}
+				33.33% {background-color:lime;}
+				41.66% {background-color:hsl(150,100%,50%);}
+				50% {background-color:cyan;}
+				66.66% {background-color:blue;}
+				75% {background-color:hsl(270,100%,50%);}
+				83.33% {background-color:magenta;}
+				91.66% {background-color:hsl(330,100%,50%);}
+				100% {background-color:red;}
+			}
+			summary{
+				text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+			}
+			.shade{
+				box-shadow: 10px 10px 2px grey;
+			}
+			.svg{
+				transition: all 0.4s;
+			}
+			.svg:hover{
+				transform: rotateX(170deg);
+				cursor: pointer;
+			}
+			textarea{
+				transition: width 1s ease-out 0.7s, height 2s ease-in 1.8s, transform 2.6s linear 0s;
+				width:300px;
+				height:80px;
+				resize: none;
+			}
+			textarea:hover{
+				width:410px;
+				height:100px;
+				transform: rotate(355deg);
+			}
+			div.animate{
+				position:relative;
+				width:100px;
+				height:100px;
+				background-color:red;
+				text-align:center;
+				animation-name: game;
+				animation-duration:3s;
+				animation-delay:2s;
+				animation-iteration-count: infinite;
+				animation-direction:alternate;
+				animation-timing-function:linear;
+			animation-play-state:paused;
+				left:39%;
+			}
+			.animate:hover{
+				animation-play-state:running;
+			}
+			@keyframes game{
+				0% {background-color:red; left:14%; bottom:0%;}
+				10% {background-color:orange; left:24%; bottom:0%;}
+				20% {background-color:yellow; left:34%; bottom:0%;}
+				30% {background-color:lime; left:44%; bottom:0%;}
+				40% {background-color:green; left:54%; bottom:0%;}
+				50% {background-color:cyan; left:64%; bottom:0%;}
+				60% {background-color:blue; left:54%; bottom:0%;}
+				70% {background-color:darkviolet; left:44%; bottom:0%;}
+				80% {background-color:magenta; left:34%; bottom:0%;}
+				90% {background-color:pink; left:24%; bottom:0%;}
+				100% {background-color:red; left:14%; bottom:0%;}
+			}
+			.eenimate{
+				top:40%;
+				left:30%;
+				position:absolute;
+			}
+			.filter{
+				filter:
+					grayscale(10%)
+					blur(1px)
+					sepia(10%)
+					hue-rotate(10deg)
+					opacity(90%)
+					brightness(90%)
+					contrast(210%) 
+					saturate(0.7)
+					invert(100%)
+					drop-shadow(8px 8px 2px green);
+					border-radius: 8px;
+					transition: all 0.4s;
+			}
+			.filter:hover {
+				filter:none;
+				cursor: pointer;
+				box-shadow: 0 0 2px 1.5px darkgray;
+			}
+			.filter:active {
+				filter:
+					invert(100%);
+			}
+			.columnize{
+				column-count:3;
+				column-rule:3px solid navy;
+			}
+			.content a:hover:before{
+				content: "#";
+			}
+			.togo{
+				content:none;
+				transition:all 0.3s;
+			}
+			.togo:hover{
+				content: ' \00BB';
+			}
+			.togo:hover:after{
+				content: ' \00BB';
+			}
+			.starpower{
+				transition: all 1s;
+			}
+			.starpower:hover{
+				transform: rotate(1080deg);
+				cursor: pointer;
+			}
+			.container{
+				position:relative;
+			}
+			.banimage{
+				display:block;
+				width:180px;
+				height:auto;
+				overflow:hidden;
+			}
+			.overlay{
+				position: absolute;
+				bottom: 180px;
+				left: 0;
+				right: 0;
+				background-color:yellow;
+				width: 180px;
+				height:0;
+				transition: .5s ease;
+				filter: opacity(65%);
+				overflow: hidden;
+				visibility:hidden;
+			}
+			.container:hover .overlay {
+				bottom: 0;
+				height: 180px;
+				cursor:pointer;
+				visibility: visible;
+			}
+			.text{
+				white-space: nowrap;
+				color:crimson;
+				font-size: 20px;
+				position:absolute;
+				top:50%;
+				left:50%;
+				transform: translate( -50%, -50%);
+			}
+			.clip{
+				position: absolute;
+				clip: rect(0px,20px,20px,0px);
+				top:0px;
+				left:127px;
+				bottom:20px;
+			}
+			.svgtext{
+				transition:all 0.5s;
+			}
+			.svgtext:hover{
+				transform: rotateZ(360deg);
+				cursor: pointer;
+			}
+			button.boxshadow{
+				box-shadow: none;
+				transition: all 0.3s;
+			}
+			button.boxshadow:hover{
+				box-shadow: 2px 2px 4px grey;
+			}
+			/*#myImg {
+    				border-radius: 5px;
+    				cursor: pointer;	
+			}*/
+
+			/* The Modal (background) */
+			.modal {
+    				display: none; /* Hidden by default */
+   				position: fixed; /* Stay in place */
+    				z-index: 1; /* Sit on top */
+   				padding-top: 100px; /* Location of the box */
+    				left: 0;
+    				top: 0;
+    				width: 100%; /* Full width */
+    				height: 100%; /* Full height */
+    				overflow: auto; /* Enable scroll if needed */
+    				background-color: black; /* Fallback color */
+    				background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+			}
+
+			/* Modal Content (image) */
+			.modal-content {
+ 				margin: auto;
+  				display: block;
+    				width: 80%;
+    				max-width: 700px;
+			}
+
+			/* Caption of Modal Image */
+			#caption {
+   				margin: auto;
+    				display: block;
+    				width: 80%;
+    				max-width: 700px;
+   				text-align: center;
+    				padding: 10px 0;
+    				height: 150px;
+			}
+			#caption:hover {
+				cursor:pointer;
+			}
+			#caption:active {
+				color:blue;
+			}
+
+			/* Add Animation */
+			.modal-content, #caption {    
+    				-webkit-animation-name: zoom;
+    				-webkit-animation-duration: 0.6s;
+   				animation-name: zoom;
+    				animation-duration: 0.6s;
+			}
+
+			@-webkit-keyframes zoom {
+   				from {-webkit-transform: scale(0)} 
+    				to {-webkit-transform: scale(1)}
+			}
+
+			@keyframes zoom {
+				from {transform: scale(0.1)} 
+				to {transform: scale(1)}
+			}
+
+			/* The Close Button */
+			.close {
+ 				position: absolute;
+   				top: 15px;
+    				right: 35px;
+    				color: lime;
+    				font-size: 40px;
+    				font-weight: bold;
+    				transition: 0.3s;
+			}
+			.close:hover {
+    				color: yellow;
+    				text-decoration: none;
+    				cursor: pointer;
+			}
+			.close:active {
+				color: red;
+				text-decoration: none;
+				cursor: pointer;
+			}
+
+			/* 100% Image Width on Smaller Screens */
+			@media only screen and (max-width: 700px){
+    				.modal-content {
+        			width: 100%;
+    				}
+			}
+			.magentle ::-moz-selection {
+				color: mediumorchid;
+				background-color: magenta;
+			}
+			.magentle ::selection {
+				color: mediumorchid;
+				background-color: magenta;
+			}
+			[id="caption"] {
+				color:cyan;
+			}

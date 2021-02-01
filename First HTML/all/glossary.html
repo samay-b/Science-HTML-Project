@@ -1,0 +1,175 @@
+<html>
+	<head>
+		<title>Samay HTML.3</title>
+		<style>
+			header{
+				font-size:.985em;
+				border: 4px solid silver;
+				background-image:url('../all/color.jpg');
+				background-repeat:none;
+				background-size:cover;
+				background-color:black;
+			}
+			dl{
+				font-size:16px;
+				background-color:black;
+			}
+			dl dt{
+				background-color:salmon;
+				color:darkred;
+			}
+			dl dd{
+				background-color:purple;
+				color:D741EC;
+			}
+			h3{
+				background-color:red;
+				border:4px solid lightblue;
+			}
+			.page{
+				color:lightblue;
+			}
+			.margin{
+				margin-right:91px;
+			}
+			dl:hover{
+				background-color:lime;
+			}
+			dt:hover{
+				background-color:navy;
+				color:cyan;
+			}
+			dd:hover{
+				background-color:DD0000;
+				color:magenta;
+			}
+			.h3{
+				width:50%;
+			}
+			body{
+				font:1em/1.5 comic sans ms, times new roman, arial;;
+				margin:7px;
+				max-width:500px;
+				min-width:450px;
+				background-image: url('../all/chess.png');
+			}
+			p{
+				text-align:justify;
+				padding:4px;
+			}
+			a:link{
+				color:orange;
+				text-decoration:none;
+				background-color:tomato;
+			}
+			a:visited{
+				color:yellow;
+				background-color:tomato;
+			}
+			a:hover{
+				background-color:forestgreen;
+				color:lime;
+			}
+		</style>
+	</head>
+	<body style="color:dimgray; background-color:gray; font-family:comic sans ms;">
+		<header>
+			<h2 align="center" style="color:white;">Welcome to Samay's <span style="text-transform:uppercase;">html</span> Defined Physics Glossary! &copy<h2>
+		</header>
+		<h3 class="h3" style="text-transform:capitalize; text-align:left; background-color:lime; color:green;">physics defined list</h3>
+		<dl style="border:4px solid orangered;">
+			<dt style="font-weight:bold;">Force</dt>
+				<dd>Strength classified as a physical action or movement.</dd>
+			<dt><b>Motion</b><dt>		
+				<dd>The action of an object changing its position due to forces.</dd>
+			<dt><b>Position</b><dt>
+				<dd>A place where someone or something is located or has been put.</dd>
+			<dt><b>Frame of Reference</b></dt>
+				<dd>A stated point in relation to judgements of motion can be made.</dd>
+			<dt><b>Direction</b></dt>
+				<dd>A course along which a person or object moves towards.</dd>
+			<dt><b>Distance</b></dt>
+				<dd>An amount of space between two people, places, or things.</dd>
+			<dt><b>Speed</b></dt>
+				<dd>The rate of someone's or something's motion or operation.</dd>
+			<dt><b>Time</b></dt>
+				<dd>A measurement of a period of existance that passed by.</dd> 
+			<dt><b>Vector</b></dt>
+				<dd>A quantity of direction along with magnitude.</dd>
+			<dt><b>Velocity</b></dt>
+				<dd>A vector which consists of speed and direction.</dd>
+			<dt><b>Acceleration</b></dt>
+				<dd>The absolute change of velocity of something, mostly speed.</dd>
+			<dt><b>Momentum</b></dt>
+				<dd>The impetus, or force of energy gained by a moving object.</dd>
+			<dt><b>Mass</b></dt>
+				<dd>The amount of matter that an object contains within itself.</dd>
+			<dt><b>Weight</b></dt>
+				<dd>The amount of heaviness that a person or object contains.</dd>
+			<dt><b>Gravity</b></dt>
+				<dd>A force attracting two bodies having mass towards each other.</dd>
+			<dt><b>Friction</b></dt>
+				<dd>The force resisting motion by rubbing of surfaces, creating heat.</dd>
+			<dt><b>Inertia</b></dt>
+				<dd>A property of motion where an object's tendency to stay in its state of motion and direction will only be altered by an external force.</dd>
+		</dl>
+		<p>Return back to <a href="samay.html">HTMLPhysicsPage:</a></p>
+		<hr>
+		<h3 class="h3" style="color:darkgray;">Sign Up!</h3>
+		<p>Are you interested in science or need help so that you can pass this class? If you sign up, you'll be able to recieve notifications for every new lesson and be able to choose what you need to focus on, so you can get quizzed.</p>
+		<form action="form.html" method="post">	
+			<fieldset style="border:4px solid darkviolet; border-width:4px 5px; border-style:solid dashed; border-color: darkviolet blue; background-color:black;">
+				<legend align="center"; style="color:springgreen;"><h3>Required</h3></legend>
+				<label for="name" class="margin page"><b>Username:</b></label>
+				<input style="font-family:comic sans ms; background-color:azure;" type="text" id="name" name="user_name"/><br><br>
+				<label for="email" class="page" style="margin-right:127px;"><b>Email:</b></label>
+				<input style="font-family:comic sans ms; background-color:azure;" type="email" id="email" name="user_email"/><br><br>
+				<label for="password" class="page" style="margin-right:5px;"><b>6-16 Digit Password:</b></label>
+				<input style="font-family:comic sans ms; background-color:azure;" type="password" id="password" name="user_password"/><br><br>
+			</fieldset>
+			<fieldset style="border:4px solid green; border-width: 4px 5px; border-style:solid dashed; border-color: green orangered; background-color:yellow; color:black;">
+				<legend align="center"; style="color:teal;"><h3>Optional</h3></legend>
+				<label for="bio">Write a paragraph or two explaining why science is very important to our lives. Winner recieves a $50 gift card on any brand they prefer.</p></label>
+				<div align="center">
+					<textarea rows="3" cols="50" style="font-family:comic sans ms; color:deeppink; background-color:mediumturquoise;" id="bio" name="user_bio">Type Here:</textarea><br><br>
+				</div>
+				<label for="ms-science-topic"><abbr title="Middle School">MS</abbr> Science Topic</label>
+				<select style="font-family:comic sans ms; color:navy; background-color:9370DB;" id="science-topic" name="user_job-title">
+					<optgroup style="font-family:comic sans ms;" label="Invalid">
+						<option style="font-family:comic sans ms;" value="none" selected>None</option>
+					<optgroup style="font-family:comic sans ms;" label="Earth">
+						<option style="font-family:comic sans ms;" value="earth's-composition">Earth's Composition</option>
+						<option style="font-family:comic sans ms;"value="our-solar-system">Our Solar System</option>
+						<option style="font-family:comic sans ms;" value="weather-and-climate">Weather and Climate</option>
+					</optgroup>
+					<optgroup style="font-family:comic sans ms;" label="Plants and Animals">
+						<option style="font-family:comic sans ms;" value="the-plant-structure">The Plant Structure</option>
+						<option style="font-family:comic sans ms;" value="cells-and-genetics">Cells and Genetics</option>
+						<option style="font-family:comic sans ms;" value="the-human-body">The Human Body</option>
+					</optgroup>
+					<optgroup style="font-family:comic sans ms;" label="Physical Science">
+						<option style="font-family:comic sans ms;" value="physics">Physics</option>
+						<option style="font-family:comic sans ms;" value="waves-and-energy">Waves and Energy</option>
+						<option style="font-family:comic sans ms;" value="chemistry">Chemistry</option>
+					</optgroup>
+				</select>
+				</br></br>
+				<input style="background-color:chartreuse;" type="radio" id="young" value="young" name="user_age"/>
+				<label>I am grade 6</label>
+				<input type="radio" id="old" value="old" name="user_age"/>
+				<label>I am grade 7</label>
+				<input type="radio" id="older" value="older" name="user_age"/>	
+				<label>I am grade 8</label><br><br>
+				<label>Interested to learn about</label><br>
+				<input type="checkbox" id="earth" value="interest_earth" name="user_choice">
+				<label for="earth">Earth</label><br>
+				<input type="checkbox" id="organisms" value="interest_organisms" name="user_choice">
+				<label for="plants-and-animals">Plants and Organisms</label><br>
+				<input type="checkbox" id="physics" value="interest_physics" name="user_choice">
+				<label for="physical_science">Physical Science</label><br>				
+			</fieldset><br>
+			<button style="font-family:comic sans ms; color:darkgreen; background-color:lime;" type="submit" id="submit">Finish</button>
+			<button style="font-family:comic sans ms; color:darkred; background-color:red;" type="reset" id="reset">Reset</button>
+		</form>
+	</body>
+</html>
